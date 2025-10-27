@@ -1,3 +1,8 @@
+export interface ImageComponentProps {
+  src: string;
+  alt: string;
+  id: number;
+}
 export interface GalleryItemInterface {
   id: number;
   location: string;
