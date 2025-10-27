@@ -32,16 +32,20 @@ function Modal({ onClose }: ModalProps) {
       <div className="absolute inset-0" onClick={onClose} />
 
       <motion.div
-        className="bg-white dark:bg-gray-900 rounded-xl overflow-hidden w-full max-w-full sm:max-w-4xl shadow-2xl border border-white/10"
+        className="bg-white dark:bg-gray-900 w-full h-auto sm:w-auto sm:h-[calc(100vh-100px)] md:h-[80vh] lg:h-[70vh] rounded-xl overflow-hidden sm:max-w-4xl shadow-2xl border border-white/10"
         initial={{ scale: 0.95, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.3, ease: "easeOut" }}
       >
         <div className="relative w-full">
-          <img
+          <motion.img
             src={data.src}
             alt={data.location}
-            className="w-full h-auto sm:h-[calc(100vh-100px)] md:h-[80vh] lg:h-[70vh] object-cover mx-auto"
+            className="w-full h-auto sm:w-auto sm:h-[calc(100vh-100px)] md:h-[80vh] lg:h-[70vh] object-cover mx-auto"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5, ease: "easeIn" }}
           />
 
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-4 sm:p-6 flex flex-col justify-end">
