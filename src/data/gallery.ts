@@ -2,7 +2,7 @@ export const gallery = [
   {
     id: 1,
     location: "کوه دماوند",
-    src: "/images/hiking/1.jpg",
+    src: "1-min.jpg",
     description: "بلندترین قله ایران و خاورمیانه با چشم‌اندازهای بی‌نظیر",
     tags: ["کوه", "برف", "صعود"],
     province: "مازندران",
@@ -12,7 +12,7 @@ export const gallery = [
   {
     id: 2,
     location: "جنگل هیرکانی",
-    src: "/images/hiking/2.jpg",
+    src: "2-min.jpg",
     description: "جنگلی قدیمی و سرسبز با مسیرهای آرامش‌بخش",
     tags: ["جنگل", "طبیعت", "سبز"],
     province: "گیلان",
@@ -22,7 +22,7 @@ export const gallery = [
   {
     id: 3,
     location: "دریاچه گهر",
-    src: "/images/hiking/3.jpg",
+    src: "3-min.jpg",
     description: "آب شفاف در میان کوه‌ها و سکوتی دلنشین",
     tags: ["دریاچه", "کوه", "آرامش"],
     province: "لرستان",
@@ -32,7 +32,7 @@ export const gallery = [
   {
     id: 4,
     location: "کوه علم‌کوه",
-    src: "/images/hiking/4.jpg",
+    src: "4-min.jpg",
     description: "مسیر صخره‌ای و چالش‌برانگیز برای کوهنوردان حرفه‌ای",
     tags: ["کوه", "صخره", "چالش"],
     province: "مازندران",
@@ -42,7 +42,7 @@ export const gallery = [
   {
     id: 5,
     location: "بیابان لوت",
-    src: "/images/hiking/5.jpg",
+    src: "5-min.jpg",
     description: "تپه‌های شنی و چشم‌اندازهای بی‌پایان و خیره‌کننده",
     tags: ["بیابان", "شن", "ماجراجویی"],
     province: "کرمان",
@@ -52,7 +52,7 @@ export const gallery = [
   {
     id: 6,
     location: "جنگل ابر",
-    src: "/images/hiking/6.jpg",
+    src: "6-min.jpg",
     description: "مه و درختان بلند که حس اسرارآمیز ایجاد می‌کند",
     tags: ["جنگل", "مه", "اسرارآمیز"],
     province: "گلستان",
@@ -62,7 +62,7 @@ export const gallery = [
   {
     id: 7,
     location: "کوه سبلان",
-    src: "/images/hiking/7.jpg",
+    src: "7-min.jpg",
     description: "چشمه‌های آب گرم و قله‌ای پوشیده از برف",
     tags: ["کوه", "چشمه", "برف"],
     province: "اردبیل",
@@ -72,7 +72,7 @@ export const gallery = [
   {
     id: 8,
     location: "دریاچه ارومیه",
-    src: "/images/hiking/8.jpg",
+    src: "8-min.jpg",
     description: "آب پهناور و مناظری زیبا در کنار ساحل",
     tags: ["دریاچه", "طبیعت", "غروب"],
     province: "آذربایجان غربی",
@@ -82,7 +82,7 @@ export const gallery = [
   {
     id: 9,
     location: "کوه اورست",
-    src: "/images/hiking/9.jpg",
+    src: "9-min.jpg",
     description: "بلندترین قله جهان که کوهنوردان از سراسر دنیا را جذب می‌کند",
     tags: ["کوه", "برف", "صعود"],
     province: "نپال/چین",
@@ -92,7 +92,7 @@ export const gallery = [
   {
     id: 10,
     location: "جنگل آمازون",
-    src: "/images/hiking/10.jpg",
+    src: "10-min.jpg",
     description: "جنگل بارانی وسیع با تنوع زیستی بالا و سرسبزی فراوان",
     tags: ["جنگل", "طبیعت", "سبز"],
     province: "برزیل",
@@ -102,7 +102,7 @@ export const gallery = [
   {
     id: 11,
     location: "دریاچه تاهو",
-    src: "/images/hiking/11.jpg",
+    src: "11-min.jpg",
     description:
       "دریاچه‌ای شفاف در میان کوه‌ها، مناسب پیاده‌روی و ورزش‌های آبی",
     tags: ["دریاچه", "کوه", "آرامش"],
@@ -113,7 +113,7 @@ export const gallery = [
   {
     id: 12,
     location: "صحرای ساهارا",
-    src: "/images/hiking/12.jpg",
+    src: "12-min.jpg",
     description: "تپه‌های شنی بی‌پایان و چشم‌اندازهای سخت و جذاب",
     tags: ["بیابان", "شن", "ماجراجویی"],
     province: "الجزایر",
@@ -123,7 +123,7 @@ export const gallery = [
   {
     id: 13,
     location: "کوه ماترهورن",
-    src: "/images/hiking/13.jpg",
+    src: "13-min.jpg",
     description: "کوهی نمادین در آلپ با مسیرهای صخره‌ای و چالش‌برانگیز",
     tags: ["کوه", "صخره", "چالش"],
     province: "سوئیس/ایتالیا",
@@ -133,7 +133,7 @@ export const gallery = [
   {
     id: 14,
     location: "دریاچه بایکال",
-    src: "/images/hiking/14.jpg",
+    src: "14-min.jpg",
     description: "عمیق‌ترین دریاچه آب شیرین جهان با مناظر خیره‌کننده",
     tags: ["دریاچه", "طبیعت", "غروب"],
     province: "روسیه",
@@ -143,7 +143,7 @@ export const gallery = [
   {
     id: 15,
     location: "کوه کلیمانجارو",
-    src: "/images/hiking/15.jpg",
+    src: "15-min.jpg",
     description: "بلندترین کوه آفریقا با قله‌ای پوشیده از برف",
     tags: ["کوه", "برف", "ماجراجویی"],
     province: "تانزانیا",
@@ -153,7 +153,7 @@ export const gallery = [
   {
     id: 16,
     location: "مزارع لاله هلند",
-    src: "/images/hiking/16.jpg",
+    src: "16-min.jpg",
     description: "مزارع بی‌پایان گل‌های رنگارنگ در فصل بهار",
     tags: ["گل", "مزارع", "رنگارنگ"],
     province: "هلند",
@@ -163,7 +163,7 @@ export const gallery = [
   {
     id: 17,
     location: "گرند کنیون",
-    src: "/images/hiking/17.jpg",
+    src: "17-min.jpg",
     description: "دره‌ای باشکوه با مسیرهای پرشیب و مناظر نفس‌گیر",
     tags: ["دره", "صخره", "ماجراجویی"],
     province: "آمریکا",
@@ -173,7 +173,7 @@ export const gallery = [
   {
     id: 18,
     location: "کوه فوجی",
-    src: "/images/hiking/18.jpg",
+    src: "18-min.jpg",
     description: "آتشفشان نمادین ژاپن، مناسب برای صعود در طلوع خورشید",
     tags: ["کوه", "آتشفشان", "صعود"],
     province: "ژاپن",
@@ -183,7 +183,7 @@ export const gallery = [
   {
     id: 19,
     location: "پاتاگونیا",
-    src: "/images/hiking/19.jpg",
+    src: "19-min.jpg",
     description: "سرزمین وسیع جنوب آرژانتین و شیلی با یخچال‌ها و کوه‌ها",
     tags: ["کوه", "یخچال", "ماجراجویی"],
     province: "آرژانتین/شیلی",
@@ -193,7 +193,7 @@ export const gallery = [
   {
     id: 20,
     location: "کوه دنا",
-    src: "/images/hiking/20.jpg",
+    src: "20-min.jpg",
     description: "کوهی با مناظر زیبا و مسیرهای چالش‌برانگیز برای کوهنوردان",
     tags: ["کوه", "صعود", "چالش"],
     province: "کهگیلویه و بویراحمد",
@@ -203,7 +203,7 @@ export const gallery = [
   {
     id: 21,
     location: "دریاچه زریوار",
-    src: "/images/hiking/21.jpg",
+    src: "21-min.jpg",
     description: "دریاچه‌ای زیبا در میان کوه‌ها با آب شفاف و طبیعت بکر",
     tags: ["دریاچه", "طبیعت", "آرامش"],
     province: "کردستان",
@@ -213,7 +213,7 @@ export const gallery = [
   {
     id: 22,
     location: "کوه سهند",
-    src: "/images/hiking/22.jpg",
+    src: "22-min.jpg",
     description: "کوهی آتشفشانی با مسیرهای متنوع برای علاقه‌مندان به کوهنوردی",
     tags: ["کوه", "آتشفشان", "صعود"],
     province: "آذربایجان شرقی",
