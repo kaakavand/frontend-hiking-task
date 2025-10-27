@@ -1,5 +1,6 @@
 "use client";
 
+import LINKS from "@/config/Links";
 import { ImageComponentProps } from "@/types/global";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,7 +16,7 @@ export default function ImageComponent({ src, alt, id }: ImageComponentProps) {
       className="mb-1 break-inside-avoid block w-full rounded-lg overflow-hidden shadow-lg transition-all duration-300 relative group shadow-gray-300 dark:shadow-teal-900/50"
     >
       <Image
-        src={src}
+        src={LINKS.storage_url + src}
         width={500}
         height={500}
         alt={alt}
@@ -27,14 +28,10 @@ export default function ImageComponent({ src, alt, id }: ImageComponentProps) {
       />
 
       {!loaded && (
-        <div
-          className="absolute inset-0 flex items-center justify-center animate-pulsebg-gray-200 dark:bg-gray-700 rounded-lg"
-        ></div>
+        <div className="absolute inset-0 flex items-center justify-center animate-pulsebg-gray-200 dark:bg-gray-700 rounded-lg"></div>
       )}
 
-      <div
-        className="absolute inset-0 flex items-center justify-center bg-teal-500/30 dark:bg-teal-700/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"
-      >
+      <div className="absolute inset-0 flex items-center justify-center bg-teal-500/30 dark:bg-teal-700/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
         <FiZoomIn className="text-white text-3xl" />
       </div>
     </Link>
