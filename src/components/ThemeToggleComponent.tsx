@@ -10,7 +10,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={() => setTheme(currentTheme === "dark" ? "light" : "dark")}
-      className="flex items-center justify-center text-gray-600 dark:text-yellow-300 hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-lg transition-colors"
+      className="flex cursor-pointer items-center justify-center text-gray-600 dark:text-yellow-300 hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-lg transition-colors"
     >
       {currentTheme === "dark" ? (
         <FiSun className="w-5 h-5" />
