@@ -5,7 +5,6 @@ import { IoClose } from "react-icons/io5";
 import { useParams } from "next/navigation";
 import { gallery } from "@/data/gallery";
 import { GalleryItemInterface, ModalProps } from "@/types/global";
-import LINKS from "@/config/Links";
 
 function Modal({ onClose }: ModalProps) {
   const params = useParams();
@@ -46,7 +45,7 @@ function Modal({ onClose }: ModalProps) {
         )}
 
         <motion.img
-          src={LINKS.storage_url + data.src}
+          src={data.src}
           alt={data.location}
           className="w-full h-auto sm:w-auto sm:h-[calc(100vh-100px)] md:h-[80vh] lg:h-[70vh] object-cover mx-auto"
           initial={{ scale: 0.95, opacity: 0 }}
